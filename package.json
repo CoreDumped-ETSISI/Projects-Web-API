@@ -1,0 +1,26 @@
+{
+  "name": "projects-web-api",
+  "version": "1.0.0",
+  "description": "API for the projects-web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoreDumped-ETSISI/Projects-Web-API.git"
+  },
+  "author": "CoreDumped",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoreDumped-ETSISI/Projects-Web-API/issues"
+  },
+  "homepage": "https://github.com/CoreDumped-ETSISI/Projects-Web-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.17",
+    "nodemon": "^1.18.10"
+  }
+}
