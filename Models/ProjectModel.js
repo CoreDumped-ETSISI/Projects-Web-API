@@ -11,7 +11,7 @@ var ProjectSchema = new Schema({
         type: Number,
     },
 
-    password: {
+    description: {
         type: String,
     },
 
