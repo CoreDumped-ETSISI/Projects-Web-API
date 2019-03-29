@@ -8,7 +8,9 @@ module.exports = function(app) {
     .post(projects.createProject);
 
   app.route('/project/:ProjectId')
-    .get(projects.getProject)   
+    .get(projects.getProject);
+
+  app.route('/project/:name')   
     .delete(projects.deleteProject);
 
   app.route('/projectname/:name')

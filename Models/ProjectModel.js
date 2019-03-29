@@ -7,11 +7,35 @@ var ProjectSchema = new Schema({
         type: String,
     },
 
-    progress: {
-        type: Number,
+    previousName: {
+        type: String,
     },
 
     description: {
+        type: String,
+    },
+
+    icon: {
+        type: String,
+    },
+    
+    tagList: [
+        {
+            name: {
+                type: String,
+            },
+        }
+    ],
+
+    repository: {
+        type: String,
+    },
+
+    documentationUrl: {
+        type: String,
+    },
+
+    productOwner: {
         type: String,
     },
 
@@ -22,6 +46,10 @@ var ProjectSchema = new Schema({
             },
             email: {
                 type: String,
+            },
+            admin: {
+                type: Boolean,
+                default: false,
             }
         }
     ],
